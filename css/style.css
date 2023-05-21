@@ -157,7 +157,11 @@ button {
 }
 
 .hero {
-  background-color: #2e2f42;
+  background: 
+  linear-gradient(to top,#2e2f4256, #2e2f4256),
+  url(/images/bg-heroimg.jpg) no-repeat ;
+max-width: 1440px;
+  object-fit:cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
