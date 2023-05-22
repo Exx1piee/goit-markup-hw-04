@@ -143,9 +143,17 @@ button {
 }
 .team-content {
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
-
+.ul-social-media{
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+.li-social-media{
+  width: 40px;
+  height: 40px;
+}
 .address-list {
   display: flex;
   gap: 40px;
@@ -155,7 +163,26 @@ button {
 .address-link:focus {
   color: var(--active-link-main-color);
 }
-
+.svg-social-media{
+  margin: 0;
+  padding: 0;
+  fill: #f4f4fd ;
+}
+.a-social-media{
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  .a-social-media:hover{
+    background-color: var(--active-link-main-color);
+  }
+  .a-social-media:focus{
+    background-color: var(--active-link-main-color);
+  }
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -170,7 +197,7 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
 }
-.features-image-container{
+.features-image-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,6 +266,8 @@ button {
   flex-basis: calc((100% -72px) / 4);
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
