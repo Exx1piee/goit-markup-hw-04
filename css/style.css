@@ -149,6 +149,7 @@ button {
   justify-content: center;
   display: flex;
   gap: 24px;
+  margin-top: 8px;
 }
 .li-social-media{
   width: 40px;
@@ -167,6 +168,14 @@ button {
   margin: 0;
   padding: 0;
   fill: #f4f4fd ;
+}
+.bug-twitter-img{
+  position: absolute;
+left: 30%;
+right: 30%;
+top: 30%;
+bottom: 30%;
+
 }
 .a-social-media{
   width: 100%;
