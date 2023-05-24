@@ -241,7 +241,8 @@ button {
   border-color: #404bbf;
   color: #404bbf;
 }
-.a-social-media {
+
+.footer-a-social-media{
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -250,13 +251,21 @@ button {
   display: flex;
   justify-content: center;
 }
+.footer-a-social-media:hover{
+  background-color:  #31d0aa;
+}
+.footer-a-social-media:focus{
+  background-color:#31d0aa ;
+}
 .a-social-media:hover {
-  background-color: var(--active-link-main-color);
+  background-color: var(--active-link-main-color) ;
 }
 .a-social-media:focus {
   background-color: var(--active-link-main-color);
 }
-
+.footer-socialmedia-p{
+  color: #ffffff;
+}
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
