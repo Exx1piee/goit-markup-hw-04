@@ -180,6 +180,16 @@ top: 30%;
 bottom: 30%;
 
 }
+.footer-div{
+  display: flex;
+  align-items: baseline;
+}
+.footer-div-handp{
+  margin-right: 120px
+}
+.footer-socialmedia{
+  
+}
 .container-ul{
   display: flex;
   gap: var(--margin-gap);
