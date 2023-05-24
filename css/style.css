@@ -145,13 +145,13 @@ button {
   text-align: center;
   padding: 32px 0;
 }
-.ul-social-media{
+.ul-social-media {
   justify-content: center;
   display: flex;
   gap: 24px;
   margin-top: 8px;
 }
-.li-social-media{
+.li-social-media {
   width: 40px;
   height: 40px;
 }
@@ -164,70 +164,84 @@ button {
 .address-link:focus {
   color: var(--active-link-main-color);
 }
-.svg-social-media{
+.svg-social-media {
   margin: 0;
   padding: 0;
-  fill: #f4f4fd ;
+  fill: #f4f4fd;
 }
-.svg-container{
+.svg-container {
   fill: currentColor;
 }
-.bug-twitter-img{
+.bug-twitter-img {
   position: absolute;
-left: 30%;
-right: 30%;
-top: 30%;
-bottom: 30%;
-
+  left: 30%;
+  right: 30%;
+  top: 30%;
+  bottom: 30%;
 }
-.footer-div{
+.footer-div {
   display: flex;
   align-items: baseline;
 }
-.footer-div-handp{
-  margin-right: 120px
+.footer-div-handp {
+  margin-right: 120px;
 }
-.footer-socialmedia{
-  
+.footer-socialmedia-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #ffffff;
 }
-.container-ul{
+.container-ul {
   display: flex;
   gap: var(--margin-gap);
 }
-.container-h{
+.container-h {
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.container-customers{
-  padding-top: 120px; 
+.container-customers {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
-.container-li{
-  width: calc((100% - 120px) / 6); 
+.container-li {
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
-.container-a{
+.footer-socialmedia-ul{
+  display: flex;
+  gap: 16px;
+}
+.footer-socialmedia-li{
+  width: 40px;
+  height: 40px;
+}
+.container-a {
   width: 100%;
   height: 100%;
-  border: 1px solid  #8e8f99;
-  border-radius:  4px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #8e8f99;
-
 }
-.container-a:focus{
+.container-a:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
-.container-a:hover{
+.container-a:hover {
   border-color: #404bbf;
   color: #404bbf;
 }
-.a-social-media{
+.a-social-media {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -235,13 +249,14 @@ bottom: 30%;
   align-items: center;
   display: flex;
   justify-content: center;
-  }
-  .a-social-media:hover{
-    background-color: var(--active-link-main-color);
-  }
-  .a-social-media:focus{
-    background-color: var(--active-link-main-color);
-  }
+}
+.a-social-media:hover {
+  background-color: var(--active-link-main-color);
+}
+.a-social-media:focus {
+  background-color: var(--active-link-main-color);
+}
+
 .hero {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -325,9 +340,8 @@ bottom: 30%;
   flex-basis: calc((100% -72px) / 4);
   background-color: #fff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-name {
