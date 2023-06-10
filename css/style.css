@@ -170,6 +170,15 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.features-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
 .hero-title {
   max-width: 496px;
   font-size: 56px;
